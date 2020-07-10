@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-web-starter",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 web application starter template",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.1",
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.3.1",
+    "del": "^5.1.0",
+    "font-awesome": "^4.7.0",
+    "gulp-rename": "^1.4.0",
+    "jquery": "^3.5.1",
+    "jquery.easing": "^1.4.1",
+    "material-icons-font": "^1.4.2",
+    "merge-stream": "^2.0.0",
+    "popper.js": "^1.14.3",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "author": "Anuruddha Hettiarachchi",
+  "license": "MIT"
+}

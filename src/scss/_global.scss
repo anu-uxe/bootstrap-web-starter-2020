@@ -1,0 +1,67 @@
+
+/* Global styles
+=============================================================== */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: $body-bg;
+    @include body-font;
+}
+
+
+a {
+    color: $primary;
+    @include transition-all;
+    &:hover,
+    &:focus {
+        color: darken($primary, 10%);
+    }
+}
+
+hr {
+    max-width: 100px;
+    margin: 25px auto 0;
+    border-width: 1px;
+    border-color: fade-out($gray-darker, .9);
+}
+
+hr.light {
+    border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include heading-font;
+    color: $primary;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+// Temparary style. to be deleted
+section {
+    padding: 100px 0;
+    h2 {
+        font-size: 50px;
+    }
+}
+
+section.main-body{
+    height: 2000px;
+    background: $primary;
+}
+
+section.inside-page{
+    height: 2000px;
+    background: $secondary;
+}
+
+
