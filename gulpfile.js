@@ -93,7 +93,7 @@ gulp.task('minify-css', function () {
 });
 
 
-// Move Images to aseets/img
+// Move imgages to dist/img
 gulp.task('imgs', function () {
     return gulp.src('src/img/*')
         .pipe(gulp.dest('dist/img'));

@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-web-starter",
   "version": "1.0.0",
-  "description": "Bootstrap 4 web application starter template",
+  "description": "Bootstrap 4 website starter template",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
@@ -21,7 +21,7 @@
     "simple-line-icons": "^2.4.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.14",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^4.0.0",
