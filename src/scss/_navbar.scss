@@ -8,6 +8,10 @@
     transition: all 0.4s ease;
     background: #fff;
 
+    .navbar-collapse{
+        background-color: #fff;
+    }
+
     .navbar-brand{
         transition: all 0.6s ease;
         font-size: 2.0rem;
@@ -65,13 +69,13 @@
             &:after{
                 content: "";
                 position: absolute;
-                width: 60%;
+                width: 100%;
                 opacity: 1;
                 height: 3px;
                 background: $secondary;
                 bottom: -1px;
-                left: 50%;
-                transform: translateX(-50%)
+                //left: 50%;
+                //transform: translateX(-50%)
             }
 
             &:hover:after{
@@ -86,6 +90,8 @@
         animation: nav-drop .2s ease;
         margin: 0;
         border:0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
 
         .dropdown-item{
             color:#fff;
@@ -121,7 +127,7 @@
 }
 
 // For small divises
-@include media-breakpoint-down(xs) {
+@include media-breakpoint-down(md) {
     .navbar {
         padding: 0;
 

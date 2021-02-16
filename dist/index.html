@@ -11,8 +11,8 @@
   <!-- Custom styles for this template -->
   <link href="./css/styles.css" rel="stylesheet">
 
-  <!-- Font Awesome icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- Bootstrap icons -->
+  <link href="vendor/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Themes -->
   <link rel="alternate stylesheet" href="css/themes/theme-purple.css" title="purple">
@@ -22,24 +22,24 @@
 
   <!-- Animate CSS -->
   <link rel="stylesheet" href="vender/animate-css/animate.min.css">
-  <title>Bootstrap 4 Starter</title>
+  <title>Bootstrap [5-beta1] Starter</title>
 </head>
 
 <body>
   <!-- Header -->
   <!-- / Header -->
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-light">
+  <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#">Web Starter</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#B4Starter"
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="B4Starter">
-        <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Page One</a>
@@ -61,22 +61,57 @@
         </ul>
       </div>
     </div>
+  </nav> -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Web Starter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Second Item</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown Third
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Last Item</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
   <!-- / Navigation -->
   <!-- Main container -->
   <main role="main" class="container main-container">
     <div class="starter-template">
-      <h1>Bootstrap 4 starter template</h1>
+      <h1>Bootstrap [5-beta1] starter template</h1>
       <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
         mostly barebones HTML document.</p>
+      <i class="bi bi-trophy" style="font-size: 4rem"></i>
     </div>
   </main>
   <!-- / Main container -->
   <!-- Scripts -->
   <!-- Jquery -->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <!-- popper js -->
-  <script src="js/vendor/popper.min.js"></script>
   <!-- Bootstrap -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- App js -->
