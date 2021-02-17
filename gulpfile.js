@@ -93,8 +93,12 @@ function modules() {
     var bootstrapIconsSVG = gulp.src('./node_modules/bootstrap-icons/icons/*.svg')
         .pipe(gulp.dest('./dist/vendor/bootstrap-icons/icons'));
 
+    // Relax JS
+    var rellaxJS = gulp.src('./node_modules/rellax/**.js')
+        .pipe(gulp.dest('./dist/vendor/rellax/'));
 
-    return merge(bootstrap, fontAwesomeCSS, animateCSS, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, bootstrapIconsFonts, bootstrapIconsCSS, bootstrapIconsSVG);
+
+    return merge(bootstrap, fontAwesomeCSS, animateCSS, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, bootstrapIconsFonts, bootstrapIconsCSS, bootstrapIconsSVG, rellaxJS);
 }
 
 //Minify CSS

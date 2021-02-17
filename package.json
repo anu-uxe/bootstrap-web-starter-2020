@@ -19,6 +19,7 @@
     "material-icons-font": "^1.4.2",
     "merge-stream": "^2.0.0",
     "popper.js": "^1.14.3",
+    "rellax": "^1.12.1",
     "simple-line-icons": "^2.4.1"
   },
   "devDependencies": {
