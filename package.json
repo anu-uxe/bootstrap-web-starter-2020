@@ -1,8 +1,8 @@
 {
   "name": "bootstrap-web-starter",
   "version": "1.0.0",
-  "description": "Bootstrap 4 website starter template",
-  "main": "index.js",
+  "description": "Bootstrap 5 website starter template",
+  "main": "index.html",
   "scripts": {
     "start": "gulp"
   },
