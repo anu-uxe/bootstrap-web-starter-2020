@@ -94,11 +94,11 @@ function modules() {
         .pipe(gulp.dest('./dist/vendor/bootstrap-icons/icons'));
 
     // Relax JS
-    var rellaxJS = gulp.src('./node_modules/rellax/**.js')
-        .pipe(gulp.dest('./dist/vendor/rellax/'));
+    var gsapJS = gulp.src('./node_modules/gsap/dist/**')
+        .pipe(gulp.dest('./dist/vendor/gsap/dist/'));
 
 
-    return merge(bootstrap, fontAwesomeCSS, animateCSS, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, bootstrapIconsFonts, bootstrapIconsCSS, bootstrapIconsSVG, rellaxJS);
+    return merge(bootstrap, fontAwesomeCSS, animateCSS, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, bootstrapIconsFonts, bootstrapIconsCSS, bootstrapIconsSVG, gsapJS);
 }
 
 //Minify CSS
